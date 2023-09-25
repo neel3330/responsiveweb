@@ -1,0 +1,129 @@
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#navbarSupportedContent {
+  
+    flex-grow: 0;
+   
+}
+.btn>{
+    font-size: 25px;
+    
+}
+.btn:hover{
+    background-color: rgb(199, 198, 198);
+}
+
+.a{
+    display: flex;
+    list-style: none;
+}
+
+.section1 {
+   
+    width: 100%;
+    background-image: url("Rectangle 1.png");
+
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.section1::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+
+}
+
+
+
+.s9one {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.s9one h3 {
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    position: relative;
+    padding-top: 215px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.s9two p {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.s9two button {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 26px;
+    height: 40px;
+    padding: 1% 2%;
+    margin: 5% 45%;
+    padding-top: 7px;
+}
+
+.s9two button:hover {
+    opacity: 1;
+    height: 40px;
+    background-color: #3695F1;
+
+    border: 1px solid #3695F1;
+
+    color: #ffffff;
+}
+
+.coll-6 h2 {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.coll-6 p {
+    padding-bottom: 20px;
+}
+
+.coll-6 img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+}
+
+.footer {
+    background: #08254F;
+
+padding-left: 80px;
+
+}
+
+ul{
+    list-style: none;
+}
+.col-sm-3 {
+    color: white;
+}
+.row{
+    padding-top: 50px;
+}
